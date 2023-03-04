@@ -1,0 +1,44 @@
+body {
+  margin: 10%;
+  font-family: "Source Code Pro", monospace;
+}
+
+h1 {
+  font-size: 90px;
+  max-width: 800px;
+}
+
+h2 {
+  font-size: 15px;
+}
+
+a {
+  color: #fe859f;
+}
+
+a:hover {
+  color: blue;
+}
+
+.product {
+  border: solid #fe859f 0.5px;
+  margin: 10px;
+  padding: 30px;
+  width: 25%;
+}
+
+.product img {
+  width: 100%;
+}
+
+/* Sektionen .all-products är parent till div-arna med
+klassnamn .product. Den styr därmed hur alla produkterna
+ska vara placerade.
+Hint! Googla "flex-wrap".*/
+
+.all-products {
+  border: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
